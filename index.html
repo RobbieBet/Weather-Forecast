@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Forecast</h1>
+        <label for="city">City:</label>
+        <input type="text" id="city" placeholder="Enter city name">
+        <button id="fetchWeather">Fetch Weather</button>
+        <div id="weatherData" class="weather-data"></div>
+    </div>
+    <div class="previous-cities">
+        <h2>Previous Cities</h2>
+        <ul id="previousCities"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
